@@ -1,0 +1,99 @@
+
+<html> 
+<head>
+<link type="text/css" rel="stylesheet" href="main.css" />
+<title> <center>Teen Girl Writer</center> </title> 
+<script>
+function banner(){ 
+var text = confirm("Do you really want to leave this page?"); 
+return text;}
+function answer(){var radio = 
+document.getElementsByName("trivia");
+var selection = false;
+var message = "";
+for( var i = 0; i < radio.length; i++) {
+if(radio[i].value == "jkr" && radio[i].checked == true) { 
+selection = true; 
+} //end if statement 
+} //end for loop 
+if(selection == true) {
+message = message + "<b><p style='color:green'>Way to go!</p></b>"; 
+} else { 
+message = message + "<b><p style='color:blue'>Try again.</p></b>"; 
+}
+document.getElementById("response").innerHTML = message;
+} //end function answer
+</script>
+</head> 
+<body id="background">
+	<a href="http://www.writerstreasure.com/ "onclick="return banner()">
+	<header> <center><h1>Teen Girl Writer!!! Writing From Your Imagination. </h1></center></header>
+    </a>
+	<nav>
+	<center>
+	   <ul id="navmenu">
+       <li class="navitem"><a href="MyBooks.html"><b>My books</b></a>
+       </li>
+       <li class="navitem"><a href="AboutMe.html"><b>About Me</b></a>
+       </li>
+       <li class="navitem"><a href="Blog.html"><b>Blog</b></a>
+       </li>
+       </ul>
+   </center>
+	</nav>
+	<div id="rightside"
+<h1> Teen Girl Writer </h1>
+<br/>
+<span class="wrap-text"> <p> Welcome to Teen Girl writer! <u>We are going to be exploring creative writing</u>, Brainstorming characters and imagining exciting plots!<b>I will be posting writing tips, promps and some snippets of books that i have already begun to write..</b>. I am also going to hopefully have a small blog <i>that you can visit any time</i> Have fun! and... Ready... Set... Write...</p> </span>
+<br/>
+<iframe width="420" height="315" src="https://www.youtube.com/watch?v=RSoRzTtwgP4" frameborder="0" allowfullscreen>
+</iframe>
+<br/>
+<br/>
+<br/>
+<audio width="400" height="220" controls autoplay>
+<source src="http://fws3home.s3.amazonaws.com/180011757/180011757/Audio/GFBC%2020161120%20A%20Biblical%20View%20Of%20Earth%20History.mp3" type="audio/mpeg">
+Your browser does not support HTML 5 audio.
+</audio> 
+
+<br/> 
+<div class="wrap-list">
+<ol>
+	<li class="listitem"> writing books</li>
+	<li class="listitem"> blogging</li>
+	<li class="listitem"> snippets of my books</li>
+</ol>	
+</div>
+</div>
+
+<div id="leftside"
+<br/>
+<div class="wrap-trivia">
+<h2> writer trivia question </h2>
+<br/>
+<p class="paragraph"> who was the first person to become a billionaire by writng books?</p>
+<form>
+<div id="response"> </div>	
+<input type="radio" name="trivia" value="rr"> Rick Riordon<br>
+<input type="radio" name="trivia" value="sc"> Suzanne Collins<br>
+<input type="radio" name="trivia" value="jkr"> J.K. Rowling<br>
+<input type="radio" name="trivia" value="sh"> Shannon Hale<br>
+<input type="button" value="submit" id="button" onclick="answer()">
+</form>
+</div>
+<img src="https://s-media-cache-ak0.pinimg.com/564x/8b/5d/2a/8b5d2aa29d1f02d396c8b1aa5226995e.jpg"/>
+<img src="https://s-media-cache-ak0.pinimg.com/564x/ca/1d/c1/ca1dc12e7b95bd5f2a266a8144dd4faa.jpg"/>
+</div>
+
+<div id="clrfloat"></div>
+<hr>
+<center> Lily R. Cowell <a href="https://my.pottermore.com"> my favorite website </a> </center>
+<h2> hi</h2> <h4> sup </h4>
+
+
+
+
+<footer> <center><h2>This website was created by Lily R. Cowell.</h2></center> </footer>
+
+</body> 
+</html>
